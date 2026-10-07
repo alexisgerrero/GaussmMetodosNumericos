@@ -1,16 +1,7 @@
 package Ecuaciones_lineales;
 
-/**
- * Módulo de lógica: Método de Gauss (eliminación gaussiana simple
- * y sustitución regresiva).
- */
 public class Gauss {
 
-    /**
-     * Triangulación de la matriz usando Eliminación Gaussiana simple.
-     * @param matriz Matriz aumentada [A | b] que será modificada directamente en memoria.
-     * @throws ArithmeticException si se encuentra un pivote igual a cero.
-     */
     public static void eliminacionGaussiana(double[][] matriz) {
         int n = matriz.length; // Tamaño del sistema (número de filas)
 
@@ -38,11 +29,6 @@ public class Gauss {
         }
     }
 
-    /**
-     * Sustitución regresiva (la bajada) para despejar las variables.
-     * @param matriz Matriz ya convertida en triangular superior.
-     * @return Arreglo con los valores de las soluciones (x1, x2, x3...).
-     */
     public static double[] sustitucionRegresiva(double[][] matriz) {
         int n = matriz.length;
         double[] x = new double[n]; // Arreglo para almacenar las respuestas

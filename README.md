@@ -1,26 +1,7 @@
 # Práctica: Método de Gauss
 
-SCC-1017 Métodos Numéricos – Unidad 3 – ITS Xalapa.
-
-## Lenguaje de programación
-Java (JDK 17 o superior).
-
-## Estructura modular
-| Archivo | Función |
-|---|---|
-| `defmatrizz.java` | Datos: define la matriz aumentada `[A \| b]` |
-| `Gauss.java` | Lógica: eliminación gaussiana y sustitución regresiva |
-| `Lanzador_gaus.java` | Clase principal (`main`) |
-
-## Compilar y ejecutar
-Desde la carpeta raíz del repositorio:
-
-```bash
-javac -d out src/Ecuaciones_lineales/*.java
-java -cp out Ecuaciones_lineales.Lanzador_gaus
-```
-
-En IntelliJ IDEA: abrir el proyecto, marcar `src` como *Sources Root* y ejecutar `Lanzador_gaus` con ▶.
+SCC-1017 Métodos Numéricos
+Juan Guerrero Alexis 227O03138
 
 ## Ejemplo de prueba
 Sistema:
@@ -40,4 +21,4 @@ x2 = -2.5
 x3 = 7.000000000000002
 ```
 
-(Solución exacta: x1 = 3, x2 = -2.5, x3 = 7; la pequeña diferencia es error de redondeo de punto flotante.)
+Solución esperada: x1 = 3, x2 = -2.5, x3 = 7

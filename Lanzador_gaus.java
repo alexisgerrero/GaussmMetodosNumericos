@@ -1,8 +1,5 @@
 package Ecuaciones_lineales;
 
-/**
- * Clase principal: coordina la lectura de datos y la resolución del sistema.
- */
 public class Lanzador_gaus {
     public static void main(String[] args) {
         // 1. Obtener la matriz aumentada [A | b]
